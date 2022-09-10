@@ -1,5 +1,0 @@
-- [Traccar Client](/online-tracking-traccar-client.md) для iOS и Android
-- OsmAnd
-- Locus
-- LA Maps Service
-- [Отправка местоположения](/telegram-bot-geolocation.md) через бота Telegram
