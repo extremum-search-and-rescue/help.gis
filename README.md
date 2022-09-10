@@ -1,8 +1,8 @@
 ## [Справка](https://extremum-search-and-rescue.github.io/help.gis/) ГИС для ПСО
 
 
-- [Интерфейс ГИС для ПСО](ui/main.md)
-- [Подключение трекеров](/online-tracking/list.md)
+- [Интерфейс ГИС для ПСО](ui-main.md)
+- [Подключение трекеров](/online-tracking-main.md)
 - [слои для SAS Planet](https://github.com/extremum-search-and-rescue/sas-layers)
 - [слои для Guru Maps](https://github.com/extremum-search-and-rescue/gurumaps-layers)
 
