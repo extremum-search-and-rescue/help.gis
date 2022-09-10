@@ -2,6 +2,7 @@
 
 
 - [Интерфейс ГИС для ПСО](ui-main.md)
+- [Телеграм бот](/telegrambot-main.md)
 - [Подключение трекеров](/onlinetracking-main.md)
 - [слои для SAS Planet](https://github.com/extremum-search-and-rescue/sas-layers)
 - [слои для Guru Maps](https://github.com/extremum-search-and-rescue/gurumaps-layers)
