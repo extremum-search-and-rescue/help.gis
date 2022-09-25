@@ -9,8 +9,8 @@
 [Поиск](/ui-search.md)  
 Инструменты создания объектов  
 Текущее местоположение  
-[Карты и слои](ui-mapsandlayers-main.md)  
-Контекстное меню карты
+[Карты и слои](/ui-mapsandlayers-main.md)  
+[Контекстное меню карты](/ui-contextmenu-main.md)
 
 ## Какой браузер лучше подойдёт?
 - на Windows, macOS или Android -- **Яндекс Браузер** или **Google Chrome**,
