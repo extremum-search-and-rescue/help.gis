@@ -3,7 +3,7 @@
 
 ### Как подключать поддерживаемые трекеры
 - **рекомендуем** [Traccar Client](/onlinetracking-traccarclient.md) для iOS и Android
-- OsmAnd
+- [OsmAnd](/onlinetracking-osmand.md)
 - Locus Map
 - LA Maps Service
 - [Отправка местоположения](/telegrambot-onlinetracking.md) через бота Telegram
