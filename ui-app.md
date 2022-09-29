@@ -5,6 +5,9 @@
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
 - в верхнем правом углу откройте **меню** браузера
 - выберите **Добавить на домашний экран**  
+<picture>
+    <img src="images/ui-app-android.png">
+</picture>
 
 ### iPhone или iPad
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
@@ -12,7 +15,7 @@
 - выберите в списке **Добавить на экран Домой**
 - нажмите **Добавить**
 <picture>
-    <img src="images/ui-app-ios.png">∂
+    <img src="images/ui-app-ios.png">
 </picture>
 
 ### Yandex Browser или Google Chrome на Windows, Linux и macOS
