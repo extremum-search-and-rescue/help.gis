@@ -11,7 +11,13 @@
 - внизу экрана нажмите на значок **Отправить** (по середине)
 - выберите в списке **Добавить на экран Домой**
 - нажмите **Добавить**
+<picture>
+    <img src="images/ui-app-ios.png">∂
+</picture>
 
 ### Yandex Browser или Google Chrome на Windows, Linux и macOS
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
 - в адресной строке браузера нажмите **Установить приложение**
+<picture>
+    <img src="images/ui-app-yawouser.png">
+</picture>
