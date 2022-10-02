@@ -22,7 +22,7 @@
 - Билайн (РФ)
 - Tele2, СберОнлайн, Tinkoff Mobile (РФ)
 - Лесное хозяйство (РФ)
-- Треки Strava
+- Треки Strava [Описание]
 - Треки Народной Карты Яндекс
 - Wikimapia
 - [Гибрид Osm и Яндекс](/ui-mapsandlayers-osmhybrid.md)
