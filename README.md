@@ -4,8 +4,7 @@
 - [Интерфейс ГИС для ПСО](ui-main.md)
 - [Телеграм бот](/telegrambot-main.md)
 - [Подключение трекеров](/onlinetracking-main.md)
-- [слои для SAS Planet](https://github.com/extremum-search-and-rescue/sas-layers)
-- [слои для Guru Maps](https://github.com/extremum-search-and-rescue/gurumaps-layers)
+
 
 ### О проекте
 
@@ -25,6 +24,9 @@
 - [Канал в Телеграм](https://t.me/extremum_sas)
 - [РОО ОДС «Экстремум», об организации](https://www.extremum.spb.ru/pages/2)
 
+### Скачать
+- Скачать [слои для SAS Planet](https://github.com/extremum-search-and-rescue/sas-layers) [github]
+- Скачать [слои для Guru Maps](https://github.com/extremum-search-and-rescue/gurumaps-layers) [github]
 
 ### Спонсоры
 Организации, без которых содержание этого проекта для внешних пользователей было бы невозможным. Наша бесконечная благодарность:
