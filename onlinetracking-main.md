@@ -8,3 +8,5 @@
 - LA Maps Service
 - [Отправка местоположения](/telegrambot-onlinetracking.md) через бота Telegram
 
+**Что делать если записанный трек прерывается**  
+Попробуйте найти решение [здесь](https://dontkillmyapp.com) по модели телефона
