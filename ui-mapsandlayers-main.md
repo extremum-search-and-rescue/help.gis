@@ -12,7 +12,8 @@
 - Яндекс Карты 
 - Яндекс Спутник
 - Google Satellite
-- Росреестр (РФ)  
+- Росреестр (РФ) 
+
 ## Слои 
 - Мегафон, Yota (РФ)
 - МТС (РФ)
@@ -22,15 +23,15 @@
 - Билайн (РФ)
 - Tele2, СберОнлайн, Tinkoff Mobile (РФ)
 - Лесное хозяйство (РФ)
-- Треки Strava [Описание]
-- Треки Народной Карты Яндекс
+- Треки Strava ([внеш. ссылка](https://habr.com/ru/post/341900/))
+- Треки Народной Карты Яндекс ([внеш. ссылка](https://yandex.ru/blog/narod-karta/gps-treki-v-narodnoy-karte))
 - Wikimapia
 - [Гибрид Osm и Яндекс](/ui-mapsandlayers-osmhybrid.md)
 - Ветер, дождевые облака
 - Сетки
 - Все треки поисков
 - Фото местности
-- Стрелки
+- [Стрелки](/ui-mapsandlayers-strelki.md)
 - Трекеры
 - [Слои геолокации](/ui-mapsandlayers-geolocation.md)
   1. Публичный сервис геолокации
