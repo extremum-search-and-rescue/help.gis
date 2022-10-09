@@ -6,9 +6,9 @@
 **Если вы не из Экстремума и не помогали раньше проекту в качестве модератора или разрабочика**
 
 1. заведите учётную запись на github.com
-2. сделайте копию (fork) справки
-3. редактируйте
-4. создайте [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) со сделанными изменениями
+2. сделайте копию ([fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)) справки,
+3. редактируйте свою копию,
+4. создайте [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) со сделанными изменениями, чтобы они попали из вашей копии в основную справку
 
 **Если вы из Экстремума или помогали в проекте раньше**
 1. заведите учётную запись на github.com
