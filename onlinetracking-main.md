@@ -6,6 +6,7 @@
 - [OsmAnd](/onlinetracking-osmand.md)
 - Locus Map
 - LA Maps Service
+- Спутниковые трекеры [Iridium](/onlinetracking-iridium.md.md)  
 - [Отправка местоположения](/telegrambot-onlinetracking.md) через бота Telegram
 
 **Что делать если записанный трек прерывается или очень низкого качества?**  
