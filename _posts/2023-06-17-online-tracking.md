@@ -6,6 +6,7 @@
 - [OsmAnd](/onlinetracking-osmand.md)
 - Locus Map
 - LA Maps Service
+- Aircom 24, для летательных аппаратов.  https://aircom24.ru   
 - Спутниковые трекеры [Iridium](/onlinetracking-iridium.md.md)  
 - [Отправка местоположения](/telegrambot-onlinetracking.md) через бота Telegram
 
