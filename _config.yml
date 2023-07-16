@@ -6,7 +6,6 @@ description:      Справочный раздел по географичес�
 version:          1.0
 gitbook_version:  3.2.3
 
-# url:              'https://kossik239.github.io'
 baseurl:          ''
 rss:              RSS
 
