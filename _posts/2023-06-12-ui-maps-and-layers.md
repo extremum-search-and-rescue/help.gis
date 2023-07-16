@@ -52,7 +52,7 @@ layout: post
 Координаты отображаюся за 24 часа, затем исчезают по очереди. На карте у координат отображается местное время (учитывается часовой пояс местоположения).
 
 <picture>
-  <img src="/help.gis.gitbook/assets/images/ui-mapsandlayers-geolocation.png" />
+  <img src="/assets/images/ui-mapsandlayers-geolocation.png" />
 </picture>
 
 #### Звёзды
