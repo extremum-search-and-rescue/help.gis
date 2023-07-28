@@ -15,19 +15,19 @@ layout: post
 1) Скачать приложение на телефон/планшет:
 **Android**
 <picture>
-  <img src="/assets/images/qr-traccar-android.png" />
+  <img src="/assets/images/online-tracking/qr-traccar-android.png" />
 </picture>
 [Скачать](https://play.google.com/store/apps/details?id=org.traccar.client) для Android
 
 **iOS**
 <picture>
-  <img src="/assets/images/qr-traccar-ios.png" />
+  <img src="/assets/images/online-tracking/qr-traccar-ios.png" />
 </picture>
 [Скачать](https://apps.apple.com/us/app/traccar-client/id843156974) для iPhone/iPad
 
 2) Открыть в Telegram диалог с ботом [SASBot](https://t.me/extremum_sasbot) (@extremum_sasbot) или открыть бота по QR коду:
 <picture>
-  <img src="/assets/images/qr-sasbot.png"/>
+  <img src="/assets/images/online-tracking/qr-sasbot.png"/>
 </picture>
 
 3) Написать боту команду **/traccar** или выбрать её в меню
@@ -87,25 +87,25 @@ Cпустя короткое время ваша геопозиция будет
 - создать "путешествие".
 
 <picture>
-  <img src="/assets/images/onlinetracking-iridium-10.png"/>
+  <img src="/assets/images/online-tracking/onlinetracking-iridium-10.png"/>
 </picture>
 
 <picture>
-  <img src="/assets/images/onlinetracking-iridium-20.png"/>
+  <img src="/assets/images/online-tracking/onlinetracking-iridium-20.png"/>
 </picture>
 
 <picture>
-  <img src="/assets/images/onlinetracking-iridium-30.png"/>
+  <img src="/assets/images/online-tracking/onlinetracking-iridium-30.png"/>
 </picture>
 
 - сделать данные трекера публичными, чтобы их могли видеть любые пользователи iridium360.ru, отметив флажок "публичное"
 
 <picture>
-  <img src="/assets/images/onlinetracking-iridium-40.png"/>
+  <img src="/assets/images/online-tracking/onlinetracking-iridium-40.png"/>
 </picture>
 
 <picture>
-  <img src="/assets/images/onlinetracking-iridium-50.png"/>
+  <img src="/assets/images/online-tracking/onlinetracking-iridium-50.png"/>
 </picture>
 
 - отправить боту скопированную ссылку на "путешествие". 
