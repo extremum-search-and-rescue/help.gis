@@ -11,7 +11,7 @@ layout: post
 - в верхнем правом углу откройте **меню** браузера
 - выберите **Добавить на домашний экран**
 <picture>
-        <img src="/assets/images/ui-app-android.png">
+        <img src="/assets/images/application/ui-app-android.png">
 </picture>
 
 ## iPhone или iPad
@@ -20,12 +20,12 @@ layout: post
 - выберите в списке **Добавить на экран Домой**
 - нажмите **Добавить**
 <picture>
-        <img src="/assets/images/ui-app-ios.png">
+        <img src="/assets/images/application/ui-app-ios.png">
 </picture>
 
 ## Yandex Browser или Google Chrome на Windows, Linux и macOS
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
 - в адресной строке браузера нажмите **Установить приложение**
 <picture>
-        <img src="/assets/images/ui-app-yawouser.png">
+        <img src="/assets/images/application/ui-app-yawouser.png">
 </picture>
