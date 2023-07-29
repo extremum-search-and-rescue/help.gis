@@ -113,7 +113,9 @@ Cпустя короткое время ваша геопозиция будет
 После этого бот будет регулярно проверять, не появилось ли новых точек в путешествии от спутникового трекера, и, когда они появятся, будет показывать эти точки на карте [ГИС для ПСО](https://gis.extremum.org) в слое **Трекеры**.
 
 ### Locus Map
-[Инструкция](https://forum.extremum.org/viewtopic.php?f=6&t=28320) и обсуждение на форуме ПСО Экстремум
+[Инструкция](https://forum.extremum.org/viewtopic.php?f=6&t=28320) и обсуждение на форуме ПСО Экстремум.
+
+Инструкции по [мониторингу](https://wiki-psr.of.by/doku.php?id=monitoring), [навигации](https://wiki-psr.of.by/doku.php?id=navigacija) и [работе с треками](https://wiki-psr.of.by/doku.php?id=rabota_s_trekam) от коллег из Беларуси.
 
 ### LA Maps Service
 
