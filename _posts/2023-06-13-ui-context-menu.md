@@ -2,6 +2,8 @@
 title: Контекстное меню
 date: 2023-06-13
 layout: post
+redirect_from:
+  - ui-contextmenu-main.html
 ---
 
 - Создать метку
