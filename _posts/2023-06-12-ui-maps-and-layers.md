@@ -3,7 +3,10 @@ title: Карты и слои
 date: 2023-06-12
 layout: post
 redirect_from:
-  - /ui-mapsandlayers-strelki.html
+  - ui-mapsandlayers-geolocation.html
+  - ui-mapsandlayers-main.html
+  - ui-mapsandlayers-osmhybrid.html
+  - ui-mapsandlayers-strelki.html
 ---
 
 Разделение на карты и слои условное, по аналогии с SAS Planet, карты - это непрозрачные подложки в виде спутниковых снимков или топографических карт, а слои - это отображаемые поверх карт дополнительные данные.
