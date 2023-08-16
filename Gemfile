@@ -8,5 +8,6 @@ gem 'jekyll-feed'
 gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
+gem 'jekyll-redirect-from'
 
 # gem "rails"
