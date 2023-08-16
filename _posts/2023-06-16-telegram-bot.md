@@ -2,6 +2,10 @@
 title: Бот для Telegram
 date: 2023-06-16
 layout: post
+redirect_from:
+  - telegrambot-foto.html
+  - telegrambot-main.html
+  - telegrambot-onlinetracking.html
 ---
 
 Подключить бота можно пройдя [по ссылке](https://t.me/@extremum_sasbot). Также можно воспользоваться поиском Telegram по имени пользователя **@extremum_sasbot**.
