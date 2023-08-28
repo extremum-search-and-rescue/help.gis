@@ -44,24 +44,29 @@ redirect_from:
 ## Карты
 ### ГГЦ
 ![ГГЦ](/assets/images/ui-maps-and-layers/ggc.png)
+
 Горячая клавиша: **U** Охват: **Российская Федерация** на начало нулевых годов до 15 масштаба (некоторые районы могут отсутстовать)
 ### OpenTopoMap.cz
 
 ![OpenTopoMap.cz](/assets/images/ui-maps-and-layers/opentopomap-cz.png)
+
 Обновления некоторых территорий приостановлены в начале 2022 года из-за систематического вандализма в OpenStreetMap. Вопросы по содержимому и обновлениям можно адресовать автору ресурса [на форуме OpenStreetMap](https://community.openstreetmap.org/t/opentopomap-cz-opentopomap/88880)
 Горячая клавиша: **O** Охват: **Российская Федерация, Республика Беларусь, Украина, Прибалтика, Казахстан** до 18 масштаба
 ### TopoMapper
 ![TopoMapper](/assets/images/ui-maps-and-layers/topomapper-com.png)
+
 Об источнике [на OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Topomapper)
 Горячая клавиша: **B** Охват: **весь мир** до 13 масштаба
 ### ESRI Satellite
 ![ESRI Satellite](/assets/images/ui-maps-and-layers/esri-sat.png)
+
 Горячая клавиша: **I** Охват: **весь мир**
 
 ### Bing Satellite
 Горячая клавиша: **V**
 ### Яндекс Карты
 ![Яндекс Карты](/assets/images/ui-maps-and-layers/yamaps.png)
+
 Горячая клавиша: **M** Охват: **весь мир**
 ### Яндекс Спутник
 Горячая клавиша: **Z**
