@@ -14,3 +14,25 @@ window.DD_RUM && window.DD_RUM.init({
 
 window.DD_RUM &&
 window.DD_RUM.startSessionReplayRecording();
+
+
+ fetch('https://layers.extremum.org/front/user/whoami")', {
+      mode: 'cors',
+      method: "get",
+      credentials: 'include',
+      headers: {
+          'Accept': 'application/json',
+      },
+  }).then((response) => {
+      if (response.ok) {
+          response.json().then(function (user) {
+              const dduser = {};
+              if (user.id) dduser.id = user.id;
+              if (user.usercode) dduser.code = user.code;
+              if (user.fullname) dduser.name = user.fullname;
+              if (user.roles) dduser.roles = user.roles.join(", ");
+
+              dduser.id && window.DD_RUM && window.DD_RUM.setUser(dduser);
+          });
+      }
+  });
