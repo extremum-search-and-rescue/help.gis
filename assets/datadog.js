@@ -16,7 +16,7 @@ window.DD_RUM &&
 window.DD_RUM.startSessionReplayRecording();
 
 
- fetch('https://layers.extremum.org/front/user/whoami")', {
+ fetch('https://layers.extremum.org/front/user/whoami', {
       mode: 'cors',
       method: "get",
       credentials: 'include',
