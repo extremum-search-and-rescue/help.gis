@@ -18,22 +18,22 @@ redirect_from:
 
 #### Подготовка к использованию
 1) Скачать приложение на телефон/планшет:
+
 **Android**
-<picture>
-  <img src="/assets/images/online-tracking/qr-traccar-android.png" />
-</picture>
+
+![Cкачать Traccar для Android](/assets/images/online-tracking/qr-traccar-android.png)
+
 [Скачать](https://play.google.com/store/apps/details?id=org.traccar.client) для Android
 
 **iOS**
-<picture>
-  <img src="/assets/images/online-tracking/qr-traccar-ios.png" />
-</picture>
+
+![Cкачать Traccar для iOS](/assets/images/online-tracking/qr-traccar-ios.png)
+
 [Скачать](https://apps.apple.com/us/app/traccar-client/id843156974) для iPhone/iPad
 
 2) Открыть в Telegram диалог с ботом [SASBot](https://t.me/extremum_sasbot) (@extremum_sasbot) или открыть бота по QR коду:
-<picture>
-  <img src="/assets/images/online-tracking/qr-sasbot.png"/>
-</picture>
+
+![Перейти к боту в Telegram](/assets/images/online-tracking/qr-sasbot.png)
 
 3) Написать боту команду **/traccar** или выбрать её в меню
 В ответ вы получите ссылку примерно такого содержания: https://layers.extremum.org/v2/webhook/trackers/123/. В этой ссылке содержится адрес сервера (если отправлять координаты в никуда, то они и будут нигде) и ваш идентификатор. С помощью идентификатора система сможет определять, от кого координаты пришли, чьё имя показывать, и кому будет отвечать бот.
@@ -91,27 +91,17 @@ Cпустя короткое время ваша геопозиция будет
 - создать учётную запись на сайте [iridium360.ru](https://www.iridium360.ru/), если её ещё нет,
 - создать "путешествие".
 
-<picture>
-  <img src="/assets/images/online-tracking/onlinetracking-iridium-10.png"/>
-</picture>
+![Настройка трекера Iridium. Шаг 1](/assets/images/online-tracking/onlinetracking-iridium-10.png)
 
-<picture>
-  <img src="/assets/images/online-tracking/onlinetracking-iridium-20.png"/>
-</picture>
+![Настройка трекера Iridium. Шаг 2](/assets/images/online-tracking/onlinetracking-iridium-20.png)
 
-<picture>
-  <img src="/assets/images/online-tracking/onlinetracking-iridium-30.png"/>
-</picture>
+![Настройка трекера Iridium. Шаг 3](/assets/images/online-tracking/onlinetracking-iridium-30.png)
 
 - сделать данные трекера публичными, чтобы их могли видеть любые пользователи iridium360.ru, отметив флажок "публичное"
 
-<picture>
-  <img src="/assets/images/online-tracking/onlinetracking-iridium-40.png"/>
-</picture>
+![Настройка трекера Iridium. Шаг 4](/assets/images/online-tracking/onlinetracking-iridium-40.png)
 
-<picture>
-  <img src="/assets/images/online-tracking/onlinetracking-iridium-50.png"/>
-</picture>
+![Настройка трекера Iridium. Шаг 5](/assets/images/online-tracking/onlinetracking-iridium-50.png)
 
 - отправить боту скопированную ссылку на "путешествие". 
 
