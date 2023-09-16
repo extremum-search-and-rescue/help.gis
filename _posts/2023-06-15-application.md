@@ -12,22 +12,19 @@ redirect_from:
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
 - в верхнем правом углу откройте **меню** браузера
 - выберите **Добавить на домашний экран**
-<picture>
-        <img src="/assets/images/application/ui-app-android.png">
-</picture>
+
+![Режим приложения для Android](/assets/images/application/ui-app-android.png)
 
 ## iPhone или iPad
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
 - внизу экрана нажмите на значок **Отправить** (посередине)
 - выберите в списке **Добавить на экран Домой**
 - нажмите **Добавить**
-<picture>
-        <img src="/assets/images/application/ui-app-ios.png">
-</picture>
+
+![Режим приложения для iOS](/assets/images/application/ui-app-ios.png)
 
 ## Yandex Browser или Google Chrome на Windows, Linux и macOS
 - откройте страницу [https://gis.extremum.org](https://gis.extremum.org)
 - в адресной строке браузера нажмите **Установить приложение**
-<picture>
-        <img src="/assets/images/application/ui-app-yawouser.png">
-</picture>
+
+![Режим приложения для ПК](/assets/images/application/ui-app-yawouser.png)
