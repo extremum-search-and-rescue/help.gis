@@ -133,9 +133,8 @@ redirect_from:
 [Сервисы геолокации в подробностях](https://help.gis.extremum.org/gps-monitoring.html)
 
 Координаты отображаюся за 24 часа, затем исчезают по очереди. На карте у координат отображается местное время (учитывается часовой пояс местоположения).
-<picture>
-  <img src="/assets/images/ui-maps-and-layers/ui-mapsandlayers-geolocation.png" />
-</picture>
+
+![Отображение координат, полученных от сервиса геолокации](/assets/images/ui-maps-and-layers/ui-mapsandlayers-geolocation.png)
 
 ##### Звёзды на карте
 **Оранжевая** — одна последняя координата с устройства. Это не обязательно самая точная координата, но всегда последняя.
