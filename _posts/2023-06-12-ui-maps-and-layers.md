@@ -74,6 +74,8 @@ redirect_from:
 
 Охват: **весь мир**
 
+Варианты: **годы** снимков. Выбранный год не означает, что именно так выглядела местность в это время, а означает что на начало указанного года в источнике были соответствующие снимки
+
 ### Bing Satellite
 ![Bing Satellite](/assets/images/ui-maps-and-layers/bing-satellite.png)
 
@@ -85,6 +87,8 @@ redirect_from:
 Горячая клавиша: **M**
 
 Охват: **весь мир**
+
+Варианты: **день/ночь**
 
 ### Яндекс Спутник
 ![Yandex Satellite](/assets/images/ui-maps-and-layers/yandex-satellite.png)
