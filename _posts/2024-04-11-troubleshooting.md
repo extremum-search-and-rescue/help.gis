@@ -9,7 +9,7 @@ layout: post
 
 ![Соединение не защищено](/assets/images/troubleshooting/error-ssl.png)
 
-Он же поделился [решением проблемы]([https://help.gis.extremum.org](https://internet-lab.ru/letss_encrypt_android_6_0_1)).
+Он же поделился [решением проблемы](https://internet-lab.ru/letss_encrypt_android_6_0_1).
 
 > ##### Внимание!
 > Все манипуляции с вашими устройствами - это зона вашей ответственности. В случае сомнений рекомендуем обращаться за помощью к более опытным коллегам.
