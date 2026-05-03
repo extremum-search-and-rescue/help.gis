@@ -17,14 +17,14 @@ redirect_from:
 - слои для различных картографических программ.
 
 ## Ссылки
-- [Перейти в ГИС для ПСО](https://gis.extremum.org)
-- [Группа в VK](https://vk.com/gisextremum)
-- [Канал в Телеграм](https://t.me/extremum_sas)
 - [РОО ОДС "Экстремум", об организации](https://www.extremum.spb.ru/pages/2)
+- [Перейти в ГИС для ПСО](https://gis.extremum.org)
+- [Канал в Телеграм](https://t.me/extremum_sas)
+- [Канал в Макс](https://max.ru/join/sN7Uex4viO5UgkZF8fzPnNf-TYpu6GANw9lY0tPhJzk)
+- [Группа в VK](https://vk.com/gisextremum)
 
 ## Скачать
 - Скачать [слои для SAS Planet](https://github.com/extremum-search-and-rescue/sas-layers)
-- Скачать [слои для Guru Maps](https://github.com/extremum-search-and-rescue/gurumaps-layers)
 
 ## Спонсоры
 Организации, без которых содержание этого проекта для внешних пользователей было бы невозможным из-за существенных материальных затрат. Наша благодарность:
