@@ -51,37 +51,23 @@ redirect_from:
 
 Для данного типа карт можно выбрать масштаб (Авто, 250 м, 500 м, 1 км или 2 км) или отображение карт соревнований по спортивному ориентированию (Московский марш-бросок или Ориентирование).
 
-### OpenTopoMap.cz
-![OpenTopoMap.cz](/assets/images/ui-maps-and-layers/opentopomap-cz.png)
+### OpenTopoMap
+![OpenTopoMap](/assets/images/ui-maps-and-layers/opentopomap-cz.png)
 
 Горячая клавиша: **O**
 
 Охват: **Российская Федерация, Республика Беларусь, Украина, Прибалтика, Казахстан** до 18 масштаба
 
+Варианты: **.cz/.org**
+
 Обновления некоторых территорий приостановлены в начале 2022 года из-за систематического вандализма в OpenStreetMap. Вопросы по содержимому и обновлениям можно адресовать автору ресурса [на форуме OpenStreetMap](https://community.openstreetmap.org/t/opentopomap-cz-opentopomap/88880).
 
-### TopoMapper
-![TopoMapper](/assets/images/ui-maps-and-layers/topomapper-com.png)
-
-Горячая клавиша: **B**
-
-Охват: **весь мир** до 13 масштаба
-
-Об источнике [на OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Topomapper).
-
-### ESRI Satellite
-![ESRI Satellite](/assets/images/ui-maps-and-layers/esri-sat.png)
-
-Горячая клавиша: **I**
+### OpenFreeMap
+![OpenFreeMap](/assets/images/ui-maps-and-layers/openfreemap.png)
 
 Охват: **весь мир**
 
-Варианты: **годы** снимков. Выбранный год не означает, что именно так выглядела местность в это время, а означает, что на начало указанного года в источнике были соответствующие снимки
-
-### Bing Satellite (Azure Maps)
-![Bing Satellite](/assets/images/ui-maps-and-layers/bing-satellite.png)
-
-Горячая клавиша: **V**
+Варианты: **Liberty/Light/Dark**
 
 ### Яндекс Карты
 ![Яндекс Карты](/assets/images/ui-maps-and-layers/yamaps.png)
@@ -92,24 +78,19 @@ redirect_from:
 
 Варианты: **день/ночь**
 
-### Яндекс Спутник
-![Yandex Satellite](/assets/images/ui-maps-and-layers/yandex-satellite.png)
-
-Горячая клавиша: **Z**
-
-Для спутниковых снимков Яндекса есть возможность выбрать год снимка. Если снимок за выбранный год отсутствует, то будет показан ближайший предыдущий снимок (например, за 2021 год, если выбран 2023 год, но съемка в 2023 и 2022 годах не осуществлялась).
-
-![Yandex Satellite verions](/assets/images/ui-maps-and-layers/yandex-satellite-versions.png)
-
-### Google Satellite
-![Google Satellite](/assets/images/ui-maps-and-layers/google-satellite.png)
-
-Горячая клавиша: **G**
-
 ### Google Terrain
 ![Google Terrain](/assets/images/ui-maps-and-layers/google-terrain.png)
 
 Горячая клавиша: **N**
+
+### TopoMapper
+![TopoMapper](/assets/images/ui-maps-and-layers/topomapper-com.png)
+
+Горячая клавиша: **B**
+
+Охват: **весь мир** до 13 масштаба
+
+Об источнике [на OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Topomapper).
 
 ### Росреестр
 ![Rosreestr](/assets/images/ui-maps-and-layers/rosreestr.png)
@@ -119,6 +100,42 @@ redirect_from:
 Охват: **Российская Федерация**, максимальный масштаб переменный — выше в городах, ниже в природной среде
 
 Официальная современная топографическая карта, например, с трассой М11 и Керченским мостом. Содержит самые последние данные о лесных кварталах. Карта представляет границы Российской Федерации на конец 2022 года. Источник: [https://pkk.rosreestr.ru](https://pkk.rosreestr.ru)
+
+### Bing Satellite (Azure Maps)
+![Bing Satellite](/assets/images/ui-maps-and-layers/bing-satellite.png)
+
+Горячая клавиша: **V**
+
+### ESRI Satellite
+![ESRI Satellite](/assets/images/ui-maps-and-layers/esri-sat.png)
+
+Горячая клавиша: **I**
+
+Охват: **весь мир**
+
+Варианты: **годы** снимков. Выбранный год не означает, что именно так выглядела местность в это время, а означает, что на начало указанного года в источнике были соответствующие снимки
+
+### Google Satellite
+![Google Satellite](/assets/images/ui-maps-and-layers/google-satellite.png)
+
+Горячая клавиша: **G**
+
+### Яндекс Спутник
+![Yandex Satellite](/assets/images/ui-maps-and-layers/yandex-satellite.png)
+
+Горячая клавиша: **Z**
+
+Для спутниковых снимков Яндекса есть возможность выбрать год снимка. Если снимок за выбранный год отсутствует, то будет показан ближайший предыдущий снимок (например, за 2021 год, если выбран 2023 год, но съемка в 2023 и 2022 годах не осуществлялась).
+
+![Yandex Satellite verions](/assets/images/ui-maps-and-layers/yandex-satellite-versions.png)
+
+### Национальная система пространственных данных
+![НСПД](/assets/images/ui-maps-and-layers/nspd.png)
+
+Варианты: **Авто/2000/10000/Base**
+
+### VIIRS / Sentinel-2
+Visible Infrared Imaging Radiometer Suite. [Подробнее на сайте NASA](https://www.earthdata.nasa.gov/data/instruments/viirs/resources)
 
 ## Слои
 ### Треки Strava
