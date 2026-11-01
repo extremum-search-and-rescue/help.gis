@@ -94,27 +94,6 @@ Cпустя короткое время ваша геопозиция будет
 ### OsmAnd
 [Инструкция](https://forum.extremum.org/viewtopic.php?f=6&t=26719) и обсуждение на форуме ПСО Экстремум
 
-### Спутниковые трекеры Iridium
-Спутниковые трекеры отправляют данные довольно редко, надо учитывать что данные от трекера будут рваные. Способ подключения таких трекеров отличается от прочих, чтобы ваш трекер Iridium360 был виден на карте нужно:
-- создать учётную запись на сайте [iridium360.ru](https://www.iridium360.ru/), если её ещё нет,
-- создать "путешествие".
-
-![Настройка трекера Iridium. Шаг 1](/assets/images/online-tracking/onlinetracking-iridium-10.png)
-
-![Настройка трекера Iridium. Шаг 2](/assets/images/online-tracking/onlinetracking-iridium-20.png)
-
-![Настройка трекера Iridium. Шаг 3](/assets/images/online-tracking/onlinetracking-iridium-30.png)
-
-- сделать данные трекера публичными, чтобы их могли видеть любые пользователи iridium360.ru, отметив флажок "публичное"
-
-![Настройка трекера Iridium. Шаг 4](/assets/images/online-tracking/onlinetracking-iridium-40.png)
-
-![Настройка трекера Iridium. Шаг 5](/assets/images/online-tracking/onlinetracking-iridium-50.png)
-
-- отправить боту скопированную ссылку на "путешествие". 
-
-После этого бот будет регулярно проверять, не появилось ли новых точек в путешествии от спутникового трекера, и, когда они появятся, будет показывать эти точки на карте [ГИС для ПСО](https://gis.extremum.org) в слое **Трекеры**.
-
 ### Locus Map
 [Инструкция](https://forum.extremum.org/viewtopic.php?f=6&t=28320) и обсуждение на форуме ПСО Экстремум.
 
