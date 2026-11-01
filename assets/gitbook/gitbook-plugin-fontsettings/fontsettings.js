@@ -2,13 +2,20 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
     // Configuration
     var MAX_SIZE       = 4,
         MIN_SIZE       = 0,
+        SYSTEM_THEME   = 3,
         BUTTON_ID;
 
     // Current fontsettings state
     var fontState;
+    var systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
 
     // Default themes
     var THEMES = [
+        {
+            config: 'system',
+            text: 'System',
+            id: SYSTEM_THEME
+        },
         {
             config: 'white',
             text: 'White',
@@ -103,27 +110,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             e.preventDefault();
         }
 
-        var $book = gitbook.state.$book;
-        var $header = $('.book-body > .book-header');
-
-        // Remove currently applied color theme
-        if (fontState.theme !== 0) {
-            $book.removeClass('color-theme-'+fontState.theme);
-            if ($header.length !== 0) {
-                $header.removeClass('color-theme-'+fontState.theme);
-            }
-        }
-
-        // Set new color theme
-        var themeId = getThemeId(configName);
-        fontState.theme = themeId;
-        if (fontState.theme !== 0) {
-            $book.addClass('color-theme-'+fontState.theme);
-            if ($header.length !== 0) {
-                $header.addClass('color-theme-'+fontState.theme);
-            }
-        }
-
+        fontState.theme = getThemeId(configName);
         saveFontSettings();
     }
 
@@ -146,7 +133,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
             return theme.config == configName;
         })[0];
         // Fallback to default theme
-        return (!!configTheme)? configTheme.id : 0;
+        return (!!configTheme)? configTheme.id : SYSTEM_THEME;
     }
 
     function update() {
@@ -159,9 +146,15 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         $book.addClass('font-size-'+fontState.size);
         $book.addClass('font-family-'+fontState.family);
 
-        if(fontState.theme !== 0) {
-            $book[0].className = $book[0].className.replace(/\bcolor-theme-\S+/g, '');
-            $book.addClass('color-theme-'+fontState.theme);
+        var themeId = fontState.theme === SYSTEM_THEME
+            ? (systemTheme.matches ? 2 : 0)
+            : fontState.theme;
+        var $header = $('.book-body > .book-header');
+        $book[0].className = $book[0].className.replace(/\bcolor-theme-\S+/g, '');
+        $book.addClass('color-theme-'+themeId);
+        if ($header.length !== 0) {
+            $header[0].className = $header[0].className.replace(/\bcolor-theme-\S+/g, '');
+            $header.addClass('color-theme-'+themeId);
         }
     }
 
@@ -178,6 +171,9 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
         });
 
         update();
+        systemTheme.addEventListener('change', function() {
+            if (fontState.theme === SYSTEM_THEME) update();
+        });
     }
 
     function updateButtons() {

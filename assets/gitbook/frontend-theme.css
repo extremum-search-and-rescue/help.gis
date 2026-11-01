@@ -1,0 +1,299 @@
+:root {
+    --gis-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --blue-50: #eff4fa;
+    --blue-100: #d3e1f2;
+    --blue-200: #bcd1eb;
+    --blue-300: #92b4de;
+    --blue-500: #3b78c5;
+    --blue-600: #006abe;
+    --blue-700: #13518e;
+    --blue-800: #183e6b;
+    --blue-900: #182c4a;
+    --gray-0: white;
+    --gray-50: #f3f3f3;
+    --gray-200: #cfcfcf;
+    --gray-300: #b0b0b0;
+    --gray-600: #686868;
+    --gray-700: #505050;
+    --gray-900: #2c2c2c;
+    --gray-950: #181818;
+    --gray-1000: #000000;
+    --warmgray-50: #f6f3ef;
+    --warmgray-100: #e4dfda;
+    --warmgray-700: #554f47;
+    --warmgray-950: #1a1814;
+    --red-a300: #ff707c;
+    --red-100: #ffd6d4;
+    --red-600: #ba3944;
+    --red-700: #8d2f35;
+    --brown-200: #ffc482;
+    --brown-950: #20160a;
+    --yellow-50: #fff3ce;
+    --yellow-600: #7b661f;
+    --grass-50: #f0f6eb;
+    --grass-200: #bcd7b0;
+    --grass-600: #347600;
+    --grass-950: #111a07;
+}
+
+.book {
+    color-scheme: light;
+    --gis-background: var(--gray-0);
+    --gis-panel-background: var(--gray-0);
+    --gis-text-base: rgba(0, 0, 0, 0.95);
+    --gis-text-light: rgba(0, 0, 0, 0.7);
+    --gis-text-subtle: rgba(0, 0, 0, 0.5);
+    --gis-text-inverse: var(--gray-0);
+    --gis-text-link: var(--blue-600);
+    --gis-text-link-hover: var(--blue-800);
+    --gis-outline: rgba(0, 0, 0, 0.15);
+    --gis-focus-outline: var(--blue-300);
+    --gis-control-background: var(--gray-700);
+    --gis-control-background-hover: var(--gray-600);
+    --gis-input-background: var(--gray-50);
+    --gis-input-background-hover: var(--blue-50);
+    --gis-input-background-active: var(--blue-200);
+    --gis-error-background: var(--red-a300);
+    --gis-error-foreground: var(--red-700);
+    --gis-warning-background: var(--brown-200);
+    --gis-warning-foreground: var(--brown-950);
+    --gis-positive-background: var(--grass-200);
+    --gis-positive-foreground: var(--grass-950);
+}
+
+.book.color-theme-1 {
+    --gis-background: var(--warmgray-50);
+    --gis-input-background: var(--warmgray-100);
+    --gis-text-base: var(--warmgray-950);
+    --gis-text-light: var(--warmgray-700);
+}
+
+.book.color-theme-2 {
+    color-scheme: dark;
+    --gis-background: var(--gray-1000);
+    --gis-panel-background: var(--gray-950);
+    --gis-text-base: rgba(255, 255, 255, 0.9);
+    --gis-text-light: rgba(255, 255, 255, 0.7);
+    --gis-text-subtle: rgba(255, 255, 255, 0.55);
+    --gis-text-inverse: var(--gray-1000);
+    --gis-text-link: var(--blue-300);
+    --gis-text-link-hover: var(--blue-100);
+    --gis-outline: rgba(255, 255, 255, 0.15);
+    --gis-control-background: var(--gray-200);
+    --gis-control-background-hover: var(--gray-300);
+    --gis-input-background: var(--gray-900);
+    --gis-input-background-hover: var(--blue-900);
+    --gis-input-background-active: var(--blue-700);
+    --gis-error-background: var(--red-600);
+    --gis-error-foreground: var(--red-100);
+    --gis-warning-background: var(--yellow-600);
+    --gis-warning-foreground: var(--yellow-50);
+    --gis-positive-background: var(--grass-600);
+    --gis-positive-foreground: var(--grass-50);
+}
+
+body,
+.book,
+.book .book-header,
+.book .book-summary {
+    font-family: var(--gis-font-family);
+    letter-spacing: normal;
+}
+
+.book .book-header,
+.book .book-summary {
+    --gis-background: var(--gis-panel-background);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2),
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body,
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section {
+    background: var(--gis-background);
+    color: var(--gis-text-base);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary,
+.book:is(.book, .color-theme-1, .color-theme-2) .dropdown-menu {
+    background: var(--gis-panel-background);
+    color: var(--gis-text-base);
+    border-color: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary {
+    border-right: 1px solid var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary ul.summary li a,
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary ul.summary li span {
+    color: var(--gis-text-light);
+    font-weight: 400;
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary ul.summary li a:hover {
+    color: var(--gis-text-link-hover);
+    background: var(--gis-input-background-hover);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary ul.summary li.active > a {
+    color: var(--gis-text-link);
+    background: var(--gis-input-background-hover);
+    font-weight: 600;
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-summary ul.summary li.divider {
+    background: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-header,
+.book:is(.book, .color-theme-1, .color-theme-2) .book-header h1,
+.book:is(.book, .color-theme-1, .color-theme-2) .book-header .btn,
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .navigation,
+.book:is(.book, .color-theme-1, .color-theme-2) .dropdown-menu .button {
+    color: var(--gis-text-light);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-header .btn:hover,
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .navigation:hover,
+.book:is(.book, .color-theme-1, .color-theme-2) .dropdown-menu .button:hover {
+    color: var(--gis-text-link-hover);
+    background: var(--gis-input-background-hover);
+}
+
+.book .dropdown-menu .buttons {
+    border-color: var(--gis-outline);
+}
+
+.book .font-settings .dropdown-menu .button.size-4 {
+    width: 50%;
+}
+
+.book .dropdown-menu .dropdown-caret .caret-inner {
+    border-bottom-color: var(--gis-panel-background);
+}
+
+.book .dropdown-menu .dropdown-caret .caret-outer {
+    border-bottom-color: var(--gis-outline);
+}
+
+.book #book-search-input,
+.book #book-search-input-inside,
+.book #book-search-input-link {
+    background: var(--gis-input-background);
+    color: var(--gis-text-base);
+    border-color: var(--gis-outline);
+}
+
+.book input::placeholder {
+    color: var(--gis-text-light);
+    opacity: 1;
+}
+
+.book :is(a, button, input):focus-visible,
+.book .book-summary ul.summary li a:focus-visible,
+.book .book-header .btn:focus-visible,
+.book .dropdown-menu .buttons .button:focus-visible,
+.book :is(#book-search-input, #book-search-input-inside) input:focus-visible {
+    outline: 2px solid var(--gis-focus-outline);
+    outline-offset: -2px;
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal {
+    color: var(--gis-text-base);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal a,
+.book #book-search-results .search-results .has-results .search-results-item a {
+    color: var(--gis-text-link);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal a:hover,
+.book #book-search-results .search-results .has-results .search-results-item a:hover {
+    color: var(--gis-text-link-hover);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal :is(h1, h2, h3, h4, h5, h6) {
+    color: inherit;
+    border-color: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal hr {
+    background: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal blockquote {
+    color: var(--gis-text-light);
+    border-color: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal :is(pre, code, .highlight),
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal table tr:nth-child(2n) {
+    background: var(--gis-input-background);
+    color: var(--gis-text-base);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal pre > code {
+    background: transparent;
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal table tr {
+    background: var(--gis-background);
+    color: var(--gis-text-base);
+    border-color: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal table :is(th, td) {
+    border-color: var(--gis-outline);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal blockquote.block-tip {
+    color: var(--gis-positive-foreground);
+    background: var(--gis-positive-background);
+    border-color: var(--gis-positive-foreground);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal blockquote.block-warning {
+    color: var(--gis-warning-foreground);
+    background: var(--gis-warning-background);
+    border-color: var(--gis-warning-foreground);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .book-body .page-wrapper .page-inner section.normal blockquote.block-danger {
+    color: var(--gis-error-foreground);
+    background: var(--gis-error-background);
+    border-color: var(--gis-error-foreground);
+}
+
+.book #book-search-results .search-results .has-results .search-results-item {
+    color: var(--gis-text-base);
+}
+
+.book #book-search-results :is(.search-highlight-keyword, .search-results-list li p em),
+.book mark {
+    background: var(--gis-input-background-active);
+    color: var(--gis-text-base);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .back-to-top {
+    background: var(--gis-control-background);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .back-to-top:hover {
+    background: var(--gis-control-background-hover);
+}
+
+.book:is(.book, .color-theme-1, .color-theme-2) .back-to-top i {
+    color: var(--gis-text-inverse);
+}
+
+.book .highlight span {
+    color: var(--gis-text-base);
+    background: transparent;
+}
+
+.book .highlight :is(.c, .ch, .cd, .cm, .cpf, .c1, .cp) {
+    color: var(--gis-text-light);
+}
+
+.book .highlight :is(.s, .sa, .sb, .sc, .sd, .s1, .s2, .se, .sh, .si, .sr, .ss, .sx, .k, .kc, .kd, .kn, .kp, .kr, .kt) {
+    color: var(--gis-text-link);
+}
